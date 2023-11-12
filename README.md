@@ -8,4 +8,6 @@ Azure sentinel is a SIEM solution used and deployed by azure. This resource is o
 Powershell script inspiration taken from Josh Madakor (https://github.com/joshmadakor1/Sentinel-Lab)
 
 ### Prerequisits for this lab
-We only need an Azure Tenant and an Azure Account that has enough sufficient permissions to deploy the resources such as **Azure Sentinel**, **Virtual Machines** and **Log Analytics Workspace**.
+We need an Azure Tenant and an Azure Account that has enough sufficient permissions to deploy the resources such as **Azure Sentinel**, **Virtual Machines** and **Log Analytics Workspace**.
+
+To analyze where the locations from the attackers are, we need an API provided by https://ipgeolocation.io/. If needed for a longer period of time, a subscription on their website is needed. The Free version only gives us 5k requests per day.
